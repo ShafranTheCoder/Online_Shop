@@ -1,0 +1,24 @@
+$root: "/";
+// grid breakpoints
+$grid-breakpoints: (xs: 0, sm: 768px, md: 1024px, lg: 1440px);
+// grid containers
+$container-max-widths: (sm: 750px, md: 990px, lg: 1400px);
+$grid-columns: 12 !default;
+$gutter: 20px !default;
+$gutter-lg: 30px !default;
+$gutter-xs: 10px !default;
+$widthContent: 960px;
+$widthPageMax: none;
+$widthPageMin: 0;
+
+// font
+@include font-face('pf_dintext', '/fonts/pfdintextpro-bold-webfont', 'pf_dintext_probold', 600);
+@include font-face('pf_dintext', '/fonts/pfdintextpro-medium-webfont', 'pf_dintext_promedium', 500);
+@include font-face('pf_dintext', '/fonts/pfdintextpro-regular-webfont', 'pf_dintext_proregular', 400);
+
+$body-font-size: 16px;
+$font-default: 'pf_dintext',
+Helvetica,
+sans-serif;
+$color-selection: dodgerblue;
+$default-text-color: #000;

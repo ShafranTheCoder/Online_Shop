@@ -1,0 +1,8 @@
+$root: "/";
+// import standards
+//-----------------------------------------------------------------------------------
+@import "export/index";
+@import "standards/reset.scss";
+@import "standards/grid.scss";
+@import "standards/common.scss";
+@import "standards/helpers.scss";

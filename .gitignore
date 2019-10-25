@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+.git/
+.history/
+node_modules/
+bower_components/
